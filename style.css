@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    color: rgb(237, 76, 76);
+}
+h1 span>a{
+    color: forestgreen;
+
+}
+.my-article>p{
+    font-size: 25px;
+    color: rgb(92, 86, 86);
+}
+table{
+    border-collapse: collapse;
+    font-size: 25px;
+}
+table tbody>tr:nth-child(odd)
+{
+    background-color: black;
+    opacity: 0.8;
+    color:white
+}
